@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#logo img {
+  height: 150;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+nav {
+  padding: 5px !important;
+}
+#navbar-toggler {
+  background-color: black;
+  color: white;
+}
+
+.welcome-message {
+  width: 100%;
+  float: left;
+  color: #0b090a;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.welcome-message h1 {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+.container h1 {
+  color: #0b090a;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.container #c {
+  padding: 50px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card img {
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-text {
+  color: #777;
+}
+
+.btn-black {
+  background-color: #000;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-black:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.welcome-message p {
+  font-size: 40px;
+  margin: 0;
+  padding: 5px;
+  margin-bottom: 20px;
+  color: #0b090a;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 10px;
+}
+#card-image img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+/* home*/
+#home {
+  height: 95vh;
+  width: 1345px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(52, 29, 20, 0.526)),
+    url("./data/heroSection.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.carousel-inner {
+  background-color: black;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: contain;
+  background-color: black;
+}
+#carouselExampleIndicators {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*footer*/
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #864e47;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 150px; /* adjust size as needed */
+  height: auto;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #864e47;
+}
+.footer-widget ul li {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover {
+  color: #864e47;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #864e47;
+  padding: 13px 20px;
+  border: 1px solid #864e47;
+  top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a {
+  color: #864e47;
+}
